@@ -250,7 +250,7 @@ header .studio-in-logo {
   padding: 6px 22px;
 
   transition: box-shadow 250ms var(--timing-function), color 250ms var(--timing-function),
-    background-color 250ms var(--timing-function);
+  background-color 250ms var(--timing-function);
 }
 .button-filter-content:first-child {
   padding: 6px 25px;
@@ -547,8 +547,8 @@ header .studio-in-logo {
   text-align: left;
 }
 
-.item:hover,
-.item:focus {
+.item,
+.item {
   transition: box-shadow 250ms var(--timing-function);
 }
 
