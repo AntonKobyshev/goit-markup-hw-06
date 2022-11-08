@@ -745,3 +745,7 @@ footer > .container {
 .button-close:hover .close-icon {
   fill: var(--accent-color);
 }
+
+textarea {
+  resize: none;
+}
