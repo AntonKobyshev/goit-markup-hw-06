@@ -627,6 +627,7 @@ footer .studio-in-logo {
 }
 .social {
   margin-left: 70px;
+  margin-right: 93px;
 }
 footer {
   display: flex;
@@ -668,7 +669,81 @@ footer > .container {
 .social-network-icon-bg-footer:focus {
   background-color: #2196f3;
 }
+.email-imput {  
+  margin-left: auto;
+  }
+  
+.email-imput-form {
+  display: flex;
+}
 
+.email-imput>p {
+  
+  color: var(--white-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 20px;}
+
+  .email-imput-box {
+  display: block;
+  margin-right: 12px;
+  padding-left: 16px;
+  min-width: 358px;
+  min-height: 50px;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+
+  /* font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.03em; */
+  
+ 
+}
+  .btn-send-email {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: auto;
+  min-width: 200px;
+  min-height: 50px;
+  border: none;
+  
+  transition: box-shadow 250ms var(--timing-function);
+  }
+
+  .send-icon {
+    fill: var(--white-color);
+    margin-left: 10px;
+  }
+
+  .btn-send-email:hover,
+  .btn-send-email:focus {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    
+    }
+    
 /* Модалка  */
 
 .backdrop {
