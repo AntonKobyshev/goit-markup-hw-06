@@ -250,7 +250,7 @@ header .studio-in-logo {
   padding: 6px 22px;
 
   transition: box-shadow 250ms var(--timing-function), color 250ms var(--timing-function),
-  background-color 250ms var(--timing-function);
+    background-color 250ms var(--timing-function);
 }
 .button-filter-content:first-child {
   padding: 6px 25px;
@@ -669,25 +669,25 @@ footer > .container {
 .social-network-icon-bg-footer:focus {
   background-color: #2196f3;
 }
-.email-imput {  
+.email-imput {
   margin-left: auto;
-  }
-  
+}
+
 .email-imput-form {
   display: flex;
 }
 
-.email-imput>p {
-  
+.email-imput > p {
   color: var(--white-color);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-bottom: 20px;}
+  margin-bottom: 20px;
+}
 
-  .email-imput-box {
+.email-imput-box {
   display: block;
   margin-right: 12px;
   padding-left: 16px;
@@ -707,11 +707,8 @@ footer > .container {
   font-size: 16px;
   line-height: 20px;
   letter-spacing: 0.03em; */
-  
- 
 }
-  .btn-send-email {
-
+.btn-send-email {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -729,21 +726,14 @@ footer > .container {
   min-width: 200px;
   min-height: 50px;
   border: none;
-  
-  transition: box-shadow 250ms var(--timing-function);
-  }
-
-  .send-icon {
-    fill: var(--white-color);
-    margin-left: 10px;
-  }
-
-  .btn-send-email:hover,
-  .btn-send-email:focus {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    
-    }
-    
+}
+
+.send-icon {
+  fill: var(--white-color);
+  margin-left: 10px;
+}
+
 /* Модалка  */
 
 .backdrop {
@@ -755,12 +745,12 @@ footer > .container {
   height: 100%;
 
   background-color: rgba(0, 0, 0, 0.2);
-  backdrop-filter: blur(0px); 
+  backdrop-filter: blur(0px);
 
   opacity: 1;
   visibility: visible;
   pointer-events: initial;
-  
+
   transition: opacity 250ms var(--timing-function);
 }
 
@@ -775,14 +765,14 @@ footer > .container {
 }
 
 .modal {
-  position: absolute;
+  position: absolute;  
 
   top: 50%;
   left: 50%;
 
   min-height: 581px;
   min-width: 528px;
-  padding: 290px 274px;
+  padding: 40px;
 
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -799,11 +789,11 @@ footer > .container {
   position: absolute;
   top: 8px;
   right: 8px;
-  
+
   display: flex;
   align-items: center;
   justify-content: center;
-  
+
   padding: 0;
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -823,4 +813,88 @@ footer > .container {
 
 textarea {
   resize: none;
+}
+
+.title-modal {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+
+.form-label {
+  display: block;
+  font-size: 12px;
+}
+
+.form-field:first-child {
+  margin-top: 12px;
+}
+
+.form-field {
+  position: relative;
+  margin-top: 10px;
+}
+
+.form-label {
+  margin-bottom: 4px;
+}
+
+.form-input {
+  display: block;
+  width: 100%;
+  height: 40px;
+}
+
+.checkbox { 
+  margin-top: 20px;
+}
+
+.comments {
+  height: 120px;
+}
+
+.icon-form {
+  position: absolute;
+  bottom: 11px;
+  left: 12px;
+  
+}
+.form-input:hover ~ .icon-form {
+  fill: var(--accent-color);
+  
+}
+
+.agreement {
+  font-size: 14px;
+    line-height: 1.71px;
+    letter-spacing: 0.03em;
+    
+}
+
+
+.btn-submit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  
+  margin-top: 30px;
+  min-width: 200px;
+  min-height: 50px;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
