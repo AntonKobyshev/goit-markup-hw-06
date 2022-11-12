@@ -824,21 +824,20 @@ textarea {
   color: var(--title-text-color);
 }
 
-.form-label {
+
+.form-field {
   display: block;
-  font-size: 12px;
+  position: relative;
+  margin-top: 10px;
 }
 
 .form-field:first-child {
   margin-top: 12px;
 }
 
-.form-field {
-  position: relative;
-  margin-top: 10px;
-}
-
 .form-label {
+  display: block;
+  font-size: 12px;
   margin-bottom: 4px;
 }
 
@@ -853,10 +852,6 @@ textarea {
   
 }
 
-.checkbox { 
-  margin-top: 20px;
-}
-
 .comments {
   height: 120px;
   padding-left: 12px;
@@ -868,17 +863,41 @@ textarea {
   left: 12px;
   
 }
-.form-input:focus ~ .icon-form {
+
+.form-input:focus + .icon-form {
   fill: var(--accent-color);
   
 }
 
-.agreement {
+.enter-your-data .checkbox-label {
+  margin-left: 13px;
+  
+}
+
+.checkbox {
+  -moz-appearance: none;
+  appearance: none;
+
+  margin-top: 20px;
+}
+
+.checkbox-icon {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: gray;
+}
+
+.checkbox:checked + .checkbox-icon {
+  background-color: #188ce8;
+}
+
+.checkbox-text {
   font-size: 14px;
     line-height: 1.71px;
     letter-spacing: 0.03em;
     
-}
+} 
 
 
 .btn-submit {
