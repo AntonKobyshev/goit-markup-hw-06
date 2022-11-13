@@ -853,6 +853,8 @@ label {
   padding-left: 42px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+
+  transition: border 250ms var(--timing-function);
   
 }
 
@@ -876,6 +878,8 @@ label {
   position: absolute;
   bottom: 11px;
   left: 12px;
+
+  transition: fill 250ms var(--timing-function);
     
 }
 textarea:focus-visible,
@@ -925,7 +929,7 @@ input:focus-visible {
 
 
 .checkbox:checked + .checkbox-icon {
- border-color: var(--accent-color);
+  border-color: var(--accent-color);
   background-color: var(--accent-color);
   background-image: url('../images/icon-check.svg');
   background-size:contain;
@@ -942,6 +946,7 @@ input:focus-visible {
 .contract {
   color: var(--accent-color);
   text-decoration: underline; 
+  margin-left: 7px;
 }
 
 
