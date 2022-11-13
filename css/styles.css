@@ -765,7 +765,7 @@ footer > .container {
 }
 
 .modal {
-  position: absolute;  
+  position: absolute;
 
   top: 50%;
   left: 50%;
@@ -855,7 +855,6 @@ label {
   border-radius: 4px;
 
   transition: border 250ms var(--timing-function);
-  
 }
 
 .comments {
@@ -864,13 +863,12 @@ label {
   padding-top: 12px;
   padding-right: 16px;
   padding-bottom: 12px;
-
 }
 .comments::placeholder {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
-    
+
   color: rgba(117, 117, 117, 0.5);
 }
 
@@ -880,7 +878,6 @@ label {
   left: 12px;
 
   transition: fill 250ms var(--timing-function);
-    
 }
 textarea:focus-visible,
 input:focus-visible {
@@ -889,11 +886,10 @@ input:focus-visible {
 
 .form-input:focus + .icon-form {
   fill: var(--accent-color);
-  
 }
 
 .form-input:focus {
- border-color: var(--accent-color);
+  border-color: var(--accent-color);
 }
 
 .checkbox-label {
@@ -902,7 +898,6 @@ input:focus-visible {
   margin-right: auto;
   display: flex;
   align-items: center;
-
 }
 
 .checkbox {
@@ -913,7 +908,6 @@ input:focus-visible {
 }
 
 .checkbox-icon {
-  
   display: inline-block;
   margin-right: 7px;
   width: 16px;
@@ -922,33 +916,27 @@ input:focus-visible {
   border-radius: 2px;
 
   transition: background-color 250ms var(--timing-function),
-  border-color 250ms var(--timing-function) ;
-  
+    border-color 250ms var(--timing-function);
 }
-
-
 
 .checkbox:checked + .checkbox-icon {
   border-color: var(--accent-color);
   background-color: var(--accent-color);
   background-image: url('../images/icon-check.svg');
-  background-size:contain;
+  background-size: contain;
   background-origin: border-box;
-    
 }
 
 .checkbox-text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-    
-} 
+}
 .contract {
   color: var(--accent-color);
-  text-decoration: underline; 
+  text-decoration: underline;
   margin-left: 7px;
 }
-
 
 .btn-submit {
   display: flex;
@@ -966,7 +954,7 @@ input:focus-visible {
   border-radius: 4px;
   margin-left: auto;
   margin-right: auto;
-  
+
   margin-top: 30px;
   min-width: 200px;
   min-height: 50px;
