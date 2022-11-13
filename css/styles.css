@@ -858,13 +858,22 @@ label {
 .comments {
   height: 120px;
   padding-left: 12px;
+  font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.01em;
+  
+    color: rgba(117, 117, 117, 0.5);
 }
 
 .icon-form {
   position: absolute;
   bottom: 11px;
   left: 12px;
-  
+    
+}
+textarea:focus-visible,
+input:focus-visible {
+  outline: none;
 }
 
 .form-input:focus + .icon-form {
@@ -872,8 +881,13 @@ label {
   
 }
 
+.form-input:focus {
+ border-color: var(--accent-color);
+}
+
 .enter-your-data .checkbox-label {
   margin-left: 13px;
+  margin-top: 20px;
   
 }
 
@@ -888,9 +902,15 @@ label {
   display: inline-block;
   width: 16px;
   height: 15px;
-  border: 1.5px solid var(--title-text-color);
-  border-radius: 1.5px;
+  border: 2px solid var(--title-text-color);
+  border-radius: 2px;
+
+  transition: background-color 250ms var(--timing-function),
+  border-color 250ms var(--timing-function) ;
+  
 }
+
+
 
 .checkbox:checked + .checkbox-icon {
  border-color: var(--accent-color);
@@ -898,15 +918,19 @@ label {
   background-image: url('../images/icon-check.svg');
   background-size:contain;
   background-origin: border-box;
-  
+    
 }
 
 .checkbox-text {
   font-size: 14px;
-    line-height: 1.71px;
-    letter-spacing: 0.03em;
+  line-height: 1.71px;
+  letter-spacing: 0.03em;
     
 } 
+.contract {
+  color: var(--accent-color);
+  text-decoration: underline; 
+}
 
 
 .btn-submit {
