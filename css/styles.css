@@ -59,7 +59,9 @@ p {
   padding: 0;
   margin: 0;
 }
-header {
+/* Хедер */
+
+.header {
   border-bottom: 1px solid var(--border-color);
 }
 header .logo {
